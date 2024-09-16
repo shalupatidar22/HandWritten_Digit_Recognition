@@ -21,6 +21,9 @@ The project is designed to recognize handwritten digits from the popular MNIST d
 # Dataset
 
 The MNIST dataset contains grayscale images of handwritten digits, each of size 28x28 pixels. For more information on the MNIST dataset, you can refer to the official page here.
+
+
+
 ![Screenshot 2024-09-16 130013](https://github.com/user-attachments/assets/639ae644-dd08-4f4a-b7b0-05da166fb66b)
 
 
