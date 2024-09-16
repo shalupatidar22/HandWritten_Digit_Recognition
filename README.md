@@ -6,13 +6,13 @@ This project implements a Handwritten Digit Recognition model using Convolutiona
 # Table of Contents
 - [overview](#overview)
 - [Dataset](#Dataset)
-- [Model Architecture]()
+- [Model Architecture](#ModelArchitecture)
 - [Training](#Training)
 - [Evaluation](#Evaluation)
-- [Confusion Matrix]()
+- [Confusion Matrix](#ConfusionMatrix)
 - [Results](#Results)
 - [Dependencies](#Dependencies)
-- [How to Run](#)
+- [How to Run](#HowtoRun)
 
 # Overview
 
@@ -81,6 +81,14 @@ model.evaluate(x_test_flatten, y_test)
 # Confusion Matrix
 
 The confusion matrix provides a more detailed understanding of the model's performance, showing how well the model classifies each digit.
+
+
+
+
+![Screenshot 2024-09-16 135807](https://github.com/user-attachments/assets/39aa1272-3245-4a39-8a58-4a7cc595318c)
+
+![Screenshot 2024-09-16 135837](https://github.com/user-attachments/assets/099589e3-5176-4f55-9b20-c370b3869567)
+
 
 ```bash
 cm = tf.math.confusion_matrix(labels=y_test, predictions=y_pred_labels)
