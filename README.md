@@ -53,6 +53,12 @@ The model is built using Keras Sequential API and consists of the following laye
 
 The model was trained using 5 epochs, and the data was flattened before being fed into the network.
 
+
+
+
+![training](https://github.com/user-attachments/assets/a5a7351d-c47b-4f33-a6d8-57748130abc5)
+
+
 ```bash
 model.fit(x_train_flatten, y_train, epochs=5)
 
